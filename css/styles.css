@@ -4009,14 +4009,14 @@ footer .row {
     /* CARDS */
     .card-container {
         position: relative;
-        width: 65vmin;
-        height: 80vmin;
+        width: 80vmin;
+        height: 90vmin;
         margin-top: 3.5em;
     }
 
     @media only screen and (max-width: 600px) {
         .card-container{
-            margin-left: 2.5em;
+            margin-left: 1em;
         }
     }
     
@@ -4074,11 +4074,13 @@ footer .row {
     }
 
     #sector ul{
-        padding-top: 7.7rem;
+        padding-top: 9rem;
+        padding-left: 11.5rem;
     }
     @media only screen and (max-width: 600px) {
         #sector ul{
             padding-top: 0;
+            padding-left: 6.4rem;
         }
     }
 
