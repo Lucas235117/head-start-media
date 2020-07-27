@@ -4008,6 +4008,12 @@ footer .row {
         height: 80vmin;
         margin-top: 3.5em;
     }
+
+    @media only screen and (max-width: 600px) {
+        .card-container{
+            margin-left: 2.5em;
+        }
+    }
     
     .card {
         position: absolute;
