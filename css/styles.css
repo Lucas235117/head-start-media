@@ -1245,7 +1245,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .subhead {
     font-family: "ramabhabra";
-    font-size: 1.7rem;
+    font-size: 4.7rem;
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
@@ -1748,6 +1748,21 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * # home 
  *
  * ------------------------------------------------------------------- */
+
+#home-bg{
+    background-image: url("../images/home-bg-1.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+@media only screen and (max-width: 600px) {
+    #home-bg{
+        background-image: url("../images/home-gb-mob.png");
+    }
+}
+
+
+ 
 .s-home {
     width: 100%;
     height: 100%;
