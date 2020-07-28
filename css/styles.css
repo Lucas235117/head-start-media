@@ -75,7 +75,7 @@ html, body {
 body {
     background: #ffffff;
     font-family: "ramabhabra", serif;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     font-style: normal;
     font-weight: normal;
     line-height: 1.765;
@@ -2812,7 +2812,7 @@ html.no-csstransitions .home-content__main {
 
 .project-content h1 {
     font-family: "ramabhabra";
-    font-size: 6.2rem;
+    font-size: 7.3rem;
     line-height: 1.333;
     margin-top: 0;
     color: rgb(255, 255, 255);
@@ -3100,7 +3100,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 450px) {
     .project-content h1 {
-        font-size: 3.3rem;
+        font-size: 4.1rem;
     }
 }
 
