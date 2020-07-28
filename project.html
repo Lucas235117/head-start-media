@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Head Start Media</title>
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/structure.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Scripts -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+    <style>
+        body{
+            background-color: #000000ed;
+        }
+        .header-menu-icon {
+            background-color: rgb(255, 255, 255);
+        }
+        .header-menu-toggle:hover, .header-menu-toggle:focus {
+            color: rgb(255, 255, 255);
+        }
+        .display-2 {
+            font-size: 5em;
+        }
+        .display-2#love {
+            font-size: 3em;
+        }
+        #about-margin{
+            margin-top: 19rem;
+        }
+        @media only screen and (max-width: 1200px) {
+            .display-2 {
+                font-size: 4.6rem;
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+            .display-2 {
+                font-size: 4.3rem;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            .display-2 {
+                font-size: 3.8rem;
+            }
+            #about-margin{
+                margin-top: 3rem;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            .display-2 {
+                font-size: 3.4rem;
+            }
+        }
+    </style>
+
+</head>
+
+<body id="top">
+
+
+    <!-- HEADER -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/logo-white.png" alt="Homepage">
+            </a>
+        </div>
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+                <h3>Navigation</h3>
+                
+                <ul class="header-nav__list">
+                    <li class="current"><a href="index.html" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="about-us.html" >About us</a></li>
+                    <li><a class="smoothscroll"  href="#" >Start a project</a></li>
+                </ul>
+    
+                <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
+    
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="https://www.facebook.com/Head-Start-Media-110823897367788"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </li>
+                </ul>
+
+            </div> <!-- end header-nav__content -->
+
+        </nav>  <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text" >Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header>
+    <!-- HEADER -->
+
+    <!-- HOME -->
+    <section id="about" class="s-project target-section" data-parallax="scroll" data-image-src="images/project-bg.png" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        
+
+        <div class="project-content">
+
+            <div class="row block-1-2 block-tab-full project-content__main">
+
+                <div class="col-full">
+                    <h1>
+                        Together lets take your <br>
+                         business to another level... <br>
+                         Contact us!
+                    </h1>
+                </div>
+
+
+
+            </div>
+
+            <div class="project-content__scroll">
+                <a href="#services" class="scroll-link smoothscroll">
+                    <span>Scroll Down</span>
+                </a>
+            </div>
+
+            <div class="project-content__line"></div>
+
+        </div> <!-- end project-content -->
+
+
+        <ul class="project-social">
+            <li>
+                <a href="https://www.facebook.com/Head-Start-Media-110823897367788"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+        </ul> 
+        <!-- end project-social -->
+
+    </section>
+    <!-- HOME -->
+
+
+     <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact">
+
+        <div class="overlay"></div>
+        <div class="contact__line"></div>
+
+        <div class="row section-header">
+            <div class="col-full">
+                <h3 class="subhead">Contact Us</h3>
+                <h1 class="display-2 display-2--light">For a new project or just say hello</h1>
+            </div>
+        </div>
+
+        <div class="row contact-content" >
+            
+            <div class="contact-primary">
+
+                <h3 class="h6">Send Us A Message</h3>
+
+                <form name="contactForm" role="form" id="contactForm" method="post" action="form/sendEmail.php" novalidate="novalidate">
+                    <fieldset>
+    
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width btn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    </fieldset>
+                </form>
+
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div> 
+            
+                <!-- contact-success -->
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
+
+            </div> <!-- end contact-primary -->
+
+            <div class="contact-secondary">
+                <div class="contact-info">
+
+                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+
+                    <div class="cinfo">
+                        <h5>Where to Find Us</h5>
+                        <p>
+                            Anderson St Brisbane,<br>
+                            Queensland, Australia
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Email Us At</h5>
+                        <p>
+                            contact@glintsite.com<br>
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Call Us At</h5>
+                        <p>
+                            Phone: (+61) 450 050 189<br>
+                        </p>
+                    </div>
+
+                    <ul class="contact-social">
+                        <li>
+                            <a href="https://www.facebook.com/Head-Start-Media-110823897367788"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                    </ul> <!-- end contact-social -->
+
+                </div> <!-- end contact-info -->
+            </div> <!-- end contact-secondary -->
+
+        </div> <!-- end contact-content -->
+
+    </section> <!-- end s-contact -->
+
+    
+
+    <!-- footer
+    ================================================== -->
+    <footer id="black">
+
+        <div class="row footer-main">
+
+            <div class="col-full tab-full left footer-desc">
+
+                <div class="footer-logo"></div>
+                Proin eget tortor risus. Mauris blandit aliquet elit. Praesent sapien massa.
+                <ul class="social-icons">
+                    <li><a class="facebook" href="https://www.facebook.com/Head-Start-Media-110823897367788"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                  </ul>
+
+            </div>
+
+        </div>
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright HSM 2020</span>
+                </div>
+
+                <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    
+</body>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</html>
